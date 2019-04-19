@@ -1,4 +1,4 @@
-package cifrador.vigenere;
+package com.company.cifrador.vigenere;
 
 public class DescifradorVigenere {
 

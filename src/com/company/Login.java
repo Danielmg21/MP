@@ -1,6 +1,6 @@
+package com.company;
 import java.io.*;
 import java.util.HashMap;
-
 /*Estructura del fichero:
 username1
 password1
