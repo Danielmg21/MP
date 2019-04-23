@@ -1,6 +1,8 @@
 package com.company;
-import cifrador.vigenere.CifradorVigenere;
-import cifrador.vigenere.DescifradorVigenere;
+
+
+import com.company.cifrador.vigenere.CifradorVigenere;
+import com.company.cifrador.vigenere.DescifradorVigenere;
 
 
 public class Vigenere {
