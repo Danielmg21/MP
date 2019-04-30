@@ -1,2 +1,2 @@
-Mensaje descifrado porCódigo Cesarcon desplazamiento cuatro : 
+Mensaje descifrado por Código Cesar con desplazamiento cuatro : 
 Estoesuntextodeejemplo Estoesuntextodeejemplo Estoesuntextodeejemplo Estoesuntextodeejemplo

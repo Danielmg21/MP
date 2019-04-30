@@ -1,6 +1,8 @@
 package com.company;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class vistaCesar {
     private JButton btVigenere;
@@ -12,7 +14,29 @@ public class vistaCesar {
     private JTextField textField3;
     private JButton btdesconectar;
 
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
+
+
+    public vistaCesar() {
+        btVigenere.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int boton = 1;
+                controladorCesar controlador = new controladorCesar(boton);
+            }
+        });
+        btTrans.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int boton = 2;
+                controladorCesar controlador = new controladorCesar(boton);
+            }
+        });
+
     }
+
+    private void createUIComponents() {
+
+
+    }
+
 }

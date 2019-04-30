@@ -19,7 +19,24 @@ public class controladorCesar {
         d.descifradoCesar(texto, clave);
     }
 
+    public controladorCesar (int boton){
+        switch (boton){
+            case 1: cambiarVistaVigenere();
+                    System.out.println("Hola");
+                    break;
+            case 2: cambiarVistaTrans();
+                    break;
 
+        }
+
+    }
+    public static void cambiarVistaVigenere (){
+
+    }
+
+    public static void cambiarVistaTrans(){
+
+    }
 }
 
 
