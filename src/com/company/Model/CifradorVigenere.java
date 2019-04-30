@@ -1,4 +1,4 @@
-package com.company.cifrador.vigenere;
+package com.company.Model;
 public class CifradorVigenere {
 
 

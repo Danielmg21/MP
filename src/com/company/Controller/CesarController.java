@@ -1,25 +1,22 @@
-package com.company;
+package com.company.Controller;
 
-import com.company.Romano4.cifrarCesar;
-import com.company.Romano4.desCifrarCesar;
+import com.company.Model.CifrarCesar;
+import com.company.Model.DescifrarCesar;
 
-import java.io.IOException;
-import java.util.Scanner;
-
-public class controladorCesar {
+public class CesarController {
 
 
     public static void cifrar(String texto, int clave) {
-        cifrarCesar c = new cifrarCesar();
+        CifrarCesar c = new CifrarCesar();
         c.cifradoCesar(texto, clave);
     }
 
     public static void desCifrar(String texto, int clave) {
-        desCifrarCesar d = new desCifrarCesar();
+        DescifrarCesar d = new DescifrarCesar();
         d.descifradoCesar(texto, clave);
     }
 
-    public controladorCesar (int boton){
+    public CesarController(int boton){
         switch (boton){
             case 1: cambiarVistaVigenere();
                     System.out.println("Hola");

@@ -1,6 +1,6 @@
-package com.company.Romano4;
+package com.company.Model;
 
-public class cifrarCesar {
+public class CifrarCesar {
     public static String cifradoCesar(String texto, int codigo) {
         StringBuilder cifrado = new StringBuilder();
         codigo = codigo % 26;

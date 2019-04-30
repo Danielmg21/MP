@@ -1,10 +1,12 @@
-package com.company;
+package com.company.View;
+
+import com.company.Controller.CesarController;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class vistaCesar {
+public class CesarView {
     private JButton btVigenere;
     private JButton btTrans;
     private JTextField textField1;
@@ -16,19 +18,19 @@ public class vistaCesar {
 
 
 
-    public vistaCesar() {
+    public CesarView() {
         btVigenere.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 int boton = 1;
-                controladorCesar controlador = new controladorCesar(boton);
+                CesarController controlador = new CesarController(boton);
             }
         });
         btTrans.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 int boton = 2;
-                controladorCesar controlador = new controladorCesar(boton);
+                CesarController controlador = new CesarController(boton);
             }
         });
 

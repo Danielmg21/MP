@@ -24,7 +24,7 @@ public class SalidaTxt {
                 }
                 break;
 
-            case ("Código de Vigenere"):
+            case ("Código de VigenereController"):
 
                 try {
                     FileWriter fw = new FileWriter(titulo + ".txt");

@@ -1,11 +1,11 @@
-package com.company;
+package com.company.Controller;
 
 
-import com.company.cifrador.vigenere.CifradorVigenere;
-import com.company.cifrador.vigenere.DescifradorVigenere;
+import com.company.Model.CifradorVigenere;
+import com.company.Model.DescifradorVigenere;
 
 
-public class Vigenere {
+public class VigenereController {
     private String textoCifrado = "";
     private String textoClaro = "";
     CifradorVigenere cifradoVigenere = new CifradorVigenere();
