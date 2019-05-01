@@ -1,19 +1,38 @@
-package com.company.Controller;
+package com.company.controller;
 
 import com.company.Model.CifrarCesar;
 import com.company.Model.DescifrarCesar;
+import com.company.View.TrasposicionView;
+import com.company.View.VigenereView;
 
 public class CesarController {
+    public String texto;
+    public int clave;
 
-
-    public static void cifrar(String texto, int clave) {
-        CifrarCesar c = new CifrarCesar();
-        c.cifradoCesar(texto, clave);
+    public String getTexto() {
+        return texto;
     }
 
-    public static void desCifrar(String texto, int clave) {
+    public void setTexto(String texto) {
+        this.texto = texto;
+    }
+
+    public int getClave() {
+        return clave;
+    }
+
+    public void setClave(int clave) {
+        this.clave = clave;
+    }
+
+    public  void cifrar() {
+        CifrarCesar c = new CifrarCesar();
+        c.cifradoCesar(this.texto, this.clave);
+    }
+
+    public void desCifrar() {
         DescifrarCesar d = new DescifrarCesar();
-        d.descifradoCesar(texto, clave);
+        d.descifradoCesar(this.texto,this.clave);
     }
 
     public CesarController(int boton){
@@ -32,10 +51,12 @@ public class CesarController {
 
     }
     public static void cambiarVistaVigenere (){
+        VigenereView vV = new VigenereView();
 
     }
 
     public static void cambiarVistaTrans(){
+        TrasposicionView tV = new TrasposicionView();
 
     }
 

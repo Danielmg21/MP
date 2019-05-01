@@ -1,11 +1,11 @@
 package com.company.View;
 
-import com.company.Controller.CesarController;
+import com.company.controller.CesarController;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+import java.awt.*;
 public class CesarView {
     private JButton btVigenere;
     private JButton btTrans;
@@ -19,6 +19,7 @@ public class CesarView {
 
 
     public CesarView() {
+
         btVigenere.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -58,7 +59,8 @@ public class CesarView {
         });
     }
 
-    }
+
+
 
     private void createUIComponents() {
 

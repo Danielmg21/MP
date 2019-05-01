@@ -1,4 +1,4 @@
-package com.company.Controller;
+package com.company.controller;
 
 
 import com.company.Model.CifradorVigenere;
