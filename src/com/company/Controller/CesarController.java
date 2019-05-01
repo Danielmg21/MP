@@ -52,7 +52,6 @@ public class CesarController {
     }
     public static void cambiarVistaVigenere (){
         VigenereView vV = new VigenereView();
-
     }
 
     public static void cambiarVistaTrans(){
