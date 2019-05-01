@@ -19,10 +19,14 @@ public class CesarController {
     public CesarController(int boton){
         switch (boton){
             case 1: cambiarVistaVigenere();
-                    System.out.println("Hola");
-                    break;
+                System.out.println("Hola");
+                break;
             case 2: cambiarVistaTrans();
-                    break;
+                break;
+            case 3: cifrar();
+                break;
+            case 4: desCifrar();
+                break;
 
         }
 
@@ -34,6 +38,8 @@ public class CesarController {
     public static void cambiarVistaTrans(){
 
     }
+
+
 }
 
 
