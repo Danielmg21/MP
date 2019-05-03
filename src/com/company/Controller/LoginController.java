@@ -1,24 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.company.Controller;
 
+import com.company.Model.Login;
+
 public class LoginController {
-    
-    public int boton;
-    public String name;
-    public String pass;
-    public String rol;
 
+    int opcion;
+    String name;
+    String pass;
+    String rol;
 
-    public int getBoton() {
-        return boton;
+    public int getOpcion() {
+        return opcion;
     }
 
-    public void setBoton(int boton) {
-        this.boton = boton;
+    public void setOpcion(int opcion) {
+        this.opcion = opcion;
     }
 
     public String getName() {
@@ -44,13 +40,11 @@ public class LoginController {
     public void setRol(String rol) {
         this.rol = rol;
     }
-    
-    private mplogin.Login login;
-    private void authUser() {
+
+    private Login login = new Login();
+    public  void authUser(String name, String pass) {
         //Recogemos valor de nombre y pass de la vista
-        String name = "aa";
-        String pass = "a";
-        
+
         if(login.authUser(name, pass)){ //Si devuelve true
             if(login.checkUserRol(name) == "VIP"){  //Comprobamos el rol
                 //return new viewModel("VIP"); //Mandamos a la vista del menu del encriptador de rol VIP
@@ -61,14 +55,11 @@ public class LoginController {
             //return new viewModel("El usuario y la contraseña no coinciden");
         }
     }
-    
 
-    private void addUser() {
-     
+
+    public void addUser(String name, String pass) {
         //Recogemos valor de nombre y pass de la vista
-        String name = "aa";
-        String pass = "aa";
-        
+
         if(login.addUser(name, pass)){
             //return new viewModel(name, pass, "Usuario añadido correctamente");
             System.out.println("Usuario añadido correctamente");
@@ -78,11 +69,9 @@ public class LoginController {
         }
     }
 
-    private void updateUser() {
+    public void updateUser(String name, String pass) {
         //Recogemos valor de nombre y pass de la vista
-        String name = "aa";
-        String pass = "aa";
-        
+
         if(login.checkUser(name)){//Primero comprobamos que exista el usuario al que se le intenta cambiar la contraseña
             if(login.updateByName(name,pass)){
                 //return new viewModel(name, pass, "La contraseña se ha cambiado correctamente");
@@ -91,29 +80,31 @@ public class LoginController {
                 //return new viewModel(null, null, "Hubo un problema al cambiar la contraseña");
                 System.out.println("Hubo un problema al cambiar la contraseña");
             }
-            
+
         }else{
             //return new viewModel(null, null, "El usuario no esta registrado");
             System.out.println("El usuario no esta registrado");
         }
     }
-    
-    public LoginController(){
+
+    public void controller(){
         //Recogemos valor del boton de la vista
-        
-        switch (this.boton) {
+
+        LoginView loginView = new LoginView();
+        switch (this.opcion) {
             case 1: //Caso de boton de login
-                this.authUser();
+                loginView.askLogin(opcion);
                 break;
             case 2: //Caso de boton añadir usuario
-                this.addUser();
+                loginView.askLogin(opcion);
                 break;
             case 3: //Caso de boton cambiar contraseña
-                this.updateUser();
+                loginView.askLogin(opcion);
                 break;
             default:
                 break;
         }
     }
-    
+
 }
+

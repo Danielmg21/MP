@@ -1,4 +1,4 @@
-package mplogin;
+package com.company.Model;
 import com.company.Model.User;
 
 import java.io.*;
@@ -25,7 +25,7 @@ public class Login {
 
 	public boolean checkUser(String name) {
 			readDataFromFile();
-			if (data.containsKey(name)) {
+		if (data.containsKey(name)) {
 				System.out.println("Correct.");
 				return true;
 			}
