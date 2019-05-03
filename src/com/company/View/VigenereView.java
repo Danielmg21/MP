@@ -1,6 +1,6 @@
 package com.company.View;
 
-import com.company.controller.VigenereController;
+import com.company.Controller.VigenereController;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

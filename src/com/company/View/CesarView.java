@@ -1,11 +1,14 @@
 package com.company.View;
 
-import com.company.controller.CesarController;
+import com.company.Controller.CesarController;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.*;
+
+
+import static com.sun.deploy.uitoolkit.ToolkitStore.dispose;
+
 public class CesarView {
     private JButton btVigenere;
     private JButton btTrans;
@@ -13,9 +16,9 @@ public class CesarView {
     private JTextField tfCriptar;
     private JButton btCriptar;
     private JButton btdes;
-    private JTextField textField3;
     private JButton btdesconectar;
-
+    private JButton btFichero;
+    private JTextArea mostrar;
 
 
     public CesarView() {
@@ -44,6 +47,7 @@ public class CesarView {
                 int clave = Integer.parseInt(tfClave.getText());
                 controlador.setTexto(texto);
                 controlador.setClave(clave);
+                mostrar.setText(controlador.getMensaje());
             }
         });
         btdes.addActionListener(new ActionListener() {
@@ -55,6 +59,32 @@ public class CesarView {
                 int clave = Integer.parseInt(tfClave.getText());
                 controlador.setTexto(texto);
                 controlador.setClave(clave);
+                mostrar.setText(controlador.getMensaje());
+
+            }
+        });
+        btFichero.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int boton = 5;
+                CesarController controlador = new CesarController(boton);
+                String texto = tfCriptar.getText();
+                int clave = Integer.parseInt(tfClave.getText());
+                controlador.setClave(clave);
+                controlador.setTexto(texto);
+
+
+            }
+        });
+        btdesconectar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    dispose();
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+
             }
         });
     }
