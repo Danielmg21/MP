@@ -1,4 +1,4 @@
-package com.company;
+package Vistas;
 
 
 import com.company.Controller.VigenereController;

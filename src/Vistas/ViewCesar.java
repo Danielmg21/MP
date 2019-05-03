@@ -1,27 +1,24 @@
-package com.company;
-
-
-import com.company.Controller.TranspositionController;
-
+package Vistas;
 import java.util.Scanner;
+import com.company.Controller.CesarController;
 
-public class TransposicionView {
-    public static void transposicion (){
+public class ViewCesar {
+    public static void cesar (){
         int opciones;
         Scanner lector = new Scanner(System.in);
         System.out.println("introduzca el mensaje");
         String mensaje = lector.nextLine();
         System.out.println("Introduzca la clave");
-        String clave = lector.nextLine();
+        int clave = lector.nextInt();
         System.out.println("Escriba la opcion que quiera");
         System.out.println("1.Cifrar");
         System.out.println("2.Descifrar");
         opciones = lector.nextInt();
-        TranspositionController transposicion = new TranspositionController(opciones,mensaje,clave);
+        CesarController cesar1 = new CesarController(opciones,mensaje,clave);
         System.out.println("¿Quiere guardar en fichero?");
         char guardar = lector.next().charAt(0);
         if (guardar == 'Y'){
-            transposicion.guardar(transposicion.mensajeFinalizado,clave);
+           cesar1.guardar(cesar1.mensajeFinalizado,clave);
         }
     }
 }
