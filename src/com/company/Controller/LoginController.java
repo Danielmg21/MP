@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mplogin;
+package com.company.Controller;
 
 public class LoginController {
     
@@ -45,7 +45,7 @@ public class LoginController {
         this.rol = rol;
     }
     
-    private Login login;
+    private mplogin.Login login;
     private void authUser() {
         //Recogemos valor de nombre y pass de la vista
         String name = "aa";

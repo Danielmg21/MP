@@ -1,4 +1,6 @@
 package mplogin;
+import com.company.Model.User;
+
 import java.io.*;
 import java.util.HashMap;
 
@@ -15,7 +17,7 @@ rol2
 public class Login {
 
 	private final String fileName = "userInfo.txt";
-	private HashMap<String,User> data;
+	private HashMap<String, User> data;
 
 	public Login() {
             data = new HashMap<>();

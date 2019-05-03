@@ -6,11 +6,11 @@ public class ViewCesar {
     public static void cesar (){
         int opciones;
         Scanner lector = new Scanner(System.in);
-        System.out.println("introduzca el mensaje");
+        System.out.println("Introduzca el mensaje");
         String mensaje = lector.nextLine();
         System.out.println("Introduzca la clave");
         int clave = lector.nextInt();
-        System.out.println("Escriba la opcion que quiera");
+        System.out.println("Escriba la opcion que quiera(El número)");
         System.out.println("1.Cifrar");
         System.out.println("2.Descifrar");
         opciones = lector.nextInt();

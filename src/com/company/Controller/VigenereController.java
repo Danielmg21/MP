@@ -86,7 +86,6 @@ public class VigenereController {
         }
     }
 
-
     public static void guardar (String mensaje,String clave){
         SalidaTxt.exportarAtexto(mensaje,clave,"Código Vigenere");
         System.out.println("Mensaje guardao en fichero");
