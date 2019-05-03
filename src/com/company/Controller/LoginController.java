@@ -1,121 +1,119 @@
-package com.company.Controller;
-import com.company.Model.User;
-
-import java.io.*;
-import java.util.HashMap;
-/*Estructura del fichero:
-username1
-password1
-rol1
-username2
-password2
-rol2
-...
-*/
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package mplogin;
 
 public class LoginController {
+    
+    public int boton;
+    public String name;
+    public String pass;
+    public String rol;
 
-	private final String fileName = "userInfo.txt";
-	private HashMap<String, User> data;
 
-	public LoginController() {
-		data = new HashMap<>();
-	}
+    public int getBoton() {
+        return boton;
+    }
 
-	public boolean checkUser(String name) {
-		readDataFromFile();
-		if (data.containsKey(name)) {
-			System.out.println("Correct.");
-			return true;
-		}
-		System.out.println("Username doesn't exist.");
-		return false;
+    public void setBoton(int boton) {
+        this.boton = boton;
+    }
 
-	}
+    public String getName() {
+        return name;
+    }
 
-	public boolean authUser(String name, String pass) {
-		if (!checkUser(name)) {
-			return false;
-		}
-		if (data.get(name).getPassword().equals(pass)) {
-			System.out.println("Correct password.");
-			return true;
-		}
-		System.out.println("Wrong password.");
-		return false;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String checkUserRol(String name) {
-		if (!checkUser(name)) {
-			return null;
-		}
-		return data.get(name).getRol();
-	}
+    public String getPass() {
+        return pass;
+    }
 
-	public boolean updateByName(String name, String newPass) {
-		try {
-			if (!checkUser(name)) {
-				return false;
-			}
-			data.get(name).setPassword(newPass);
-			writeDataToFile();
-			System.out.println("Password changed successfully.");
-			return true;
-		}
-		catch (Exception e) {
-			return false;
-		}
-	}
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
 
-	public boolean addUser(String name, String pass) {
-		try {
-			if (checkUser(name)) {
-				System.out.println("User already exists.");
-				return false;
-			}
-			User userAux = new User(name,pass,"normal");
-			data.put(userAux.getUserName(),userAux);
-			writeDataToFile();
-			System.out.println("User added successfully.");
-			return true;
-		}
-		catch (Exception e) {
-			return false;
-		}
-	}
+    public String getRol() {
+        return rol;
+    }
 
-	private void readDataFromFile() {
-		try(BufferedReader br = new BufferedReader(new FileReader(fileName))){
-			data = new HashMap<>();
-			String userNameAux;
-			String passwordAux;
-			String rolAux;
-			User userAux;
-			while ((userNameAux = br.readLine()) != null) {
-				passwordAux = br.readLine();
-				rolAux = br.readLine();
-				userAux = new User(userNameAux,passwordAux,rolAux);
-				data.put(userNameAux,userAux);
-			}
-		}
-		catch (IOException e) {
-			System.out.println("Reading data from file failed.");
-		}
-	}
+    public void setRol(String rol) {
+        this.rol = rol;
+    }
+    
+    private Login login;
+    private void authUser() {
+        //Recogemos valor de nombre y pass de la vista
+        String name = "aa";
+        String pass = "a";
+        
+        if(login.authUser(name, pass)){ //Si devuelve true
+            if(login.checkUserRol(name) == "VIP"){  //Comprobamos el rol
+                //return new viewModel("VIP"); //Mandamos a la vista del menu del encriptador de rol VIP
+            }else{
+                //return new viewModel("Normal"); //Mandamos a la vista del menu encriptador de rol normal
+            }
+        }else{//La autentificacion es incorrecta
+            //return new viewModel("El usuario y la contraseña no coinciden");
+        }
+    }
+    
 
-	private void writeDataToFile() {
-		try(BufferedWriter bw = new BufferedWriter(new FileWriter(fileName))) {
-			for (User u : data.values()) {
-				bw.write(u.getUserName());
-				bw.newLine();
-				bw.write(u.getPassword());
-				bw.newLine();
-				bw.write(u.getRol());
-				bw.newLine();
-			}
-		}
-		catch (IOException e) {
-			System.out.println("Writing data to file failed.");
-		}
-	}
+    private void addUser() {
+     
+        //Recogemos valor de nombre y pass de la vista
+        String name = "aa";
+        String pass = "aa";
+        
+        if(login.addUser(name, pass)){
+            //return new viewModel(name, pass, "Usuario añadido correctamente");
+            System.out.println("Usuario añadido correctamente");
+        }else{
+            //return new viewModel(null, null, "Ha habido un error al añadir al usuario");
+            System.out.println("");
+        }
+    }
+
+    private void updateUser() {
+        //Recogemos valor de nombre y pass de la vista
+        String name = "aa";
+        String pass = "aa";
+        
+        if(login.checkUser(name)){//Primero comprobamos que exista el usuario al que se le intenta cambiar la contraseña
+            if(login.updateByName(name,pass)){
+                //return new viewModel(name, pass, "La contraseña se ha cambiado correctamente");
+                System.out.println("La contraseña se ha cambiado correctamente");
+            }else{
+                //return new viewModel(null, null, "Hubo un problema al cambiar la contraseña");
+                System.out.println("Hubo un problema al cambiar la contraseña");
+            }
+            
+        }else{
+            //return new viewModel(null, null, "El usuario no esta registrado");
+            System.out.println("El usuario no esta registrado");
+        }
+    }
+    
+    public LoginController(){
+        //Recogemos valor del boton de la vista
+        
+        switch (this.boton) {
+            case 1: //Caso de boton de login
+                this.authUser();
+                break;
+            case 2: //Caso de boton añadir usuario
+                this.addUser();
+                break;
+            case 3: //Caso de boton cambiar contraseña
+                this.updateUser();
+                break;
+            default:
+                break;
+        }
+    }
+    
 }
