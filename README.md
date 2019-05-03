@@ -20,9 +20,6 @@ Muchos miembros del grupo estamos también matriculados en la asignatura de Segu
 ## Método de trabajo
 Como equipo, hemos decidido que lo mejor sería aplicar lo aprendido en la asignatura de Procesos Software. Esto conlleva adaptarse a un entorno de "trabajo ágil", con división del trabajo y gestión de historias de usuario con la aplicación Trello. Siendo un equipo mayormente multifuncional, cada integrante se ha enfocado en la parte que tenía más conocimientos pero sin olvidarse de la de los demás, siguiendo la filosofía T-Skills.
 
-## Documento de Requerimientos del Software
-En la carpeta del proyecto podrás encontrar el documento **mp_srs.pdf**.
-
 ## Instrucciones de uso
 ### Cómo iniciar la aplicación
 1.	Es necesario tener java 8 instalado en el ordenador.
@@ -38,3 +35,13 @@ Lo primero que nos encontramos es el login. Disponemos de 3 opciones (si no se i
 En caso de que salte un error (usuario no existente, contraseña incorrecta, etc.), se nos pedirá de nuevo que introduzcamos un número para seleccionar una opción de las mencionadas anteriormente.
 
 Aparte, se comprobará el rol al iniciar sesión y, en caso de ser usuario VIP, saltará aviso de que en efecto lo eres.
+
+#### Opciones de cifrado
+Tanto si eres usuario VIP como usuario normal, se te mostrarán las opciones de cifrado césar, transposición y una opción para salir. Además, si eres usuario VIP podrás acceder a la opción del cifrado Vigenère.
+
+Hay un tratamiento de errores para controlar la entrada por teclado.
+
+Una vez se ha accedido a una de las opciones, se podrá introducir los datos necesarios y se mostrará por pantalla el resultado obtenido.
+
+## Documento de Requerimientos del Software
+En la carpeta del proyecto podrás encontrar el documento **mp_srs.pdf**.
