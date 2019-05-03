@@ -3,8 +3,6 @@ package com.company.Controller;
 
 import com.company.Model.CifradorVigenere;
 import com.company.Model.DescifradorVigenere;
-import com.company.View.TrasposicionView;
-import com.company.View.CesarView;
 
 
 public class VigenereController {
@@ -76,13 +74,6 @@ public class VigenereController {
 
     public VigenereController(int boton) {
         switch (boton) {
-            case 1:
-                cambiarVistaCesar();
-                System.out.println("Hola");
-                break;
-            case 2:
-                cambiarVistaTrans();
-                break;
             case 3:
                 //cifrar();
                 break;
@@ -92,17 +83,6 @@ public class VigenereController {
 
         }
     }
-
-    public static void cambiarVistaCesar (){
-        CesarView vV = new CesarView();
-    }
-
-    public static void cambiarVistaTrans(){
-        TrasposicionView tV = new TrasposicionView();
-
-    }
-
-
 
 
 

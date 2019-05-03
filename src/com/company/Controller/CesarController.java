@@ -4,9 +4,6 @@ import com.company.Model.CifrarCesar;
 import com.company.Model.DescifrarCesar;
 import com.company.SalidaTxt;
 
-import com.company.View.TrasposicionView;
-import com.company.View.VigenereView;
-
 
 public class CesarController {
     public String texto;
@@ -41,11 +38,6 @@ public class CesarController {
     }
     public CesarController(int boton){
         switch (boton){
-            /*case 1: cambiarVistaVigenere();
-                break;
-            case 2: cambiarVistaTrans();
-                break;
-                */
 
             case 1: cifrar();
                 break;
@@ -56,14 +48,7 @@ public class CesarController {
         }
     }
 
-    public static void cambiarVistaVigenere (){
-        VigenereView vV = new VigenereView();
-    }
 
-    public static void cambiarVistaTrans(){
-        TrasposicionView tV = new TrasposicionView();
-
-    }
 
 
 }
