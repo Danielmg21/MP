@@ -16,7 +16,6 @@ public class CesarController {
         return mensaje;
     }
 
-
     public void setTexto(String texto) {
         this.texto = texto;
     }
@@ -29,35 +28,36 @@ public class CesarController {
 
     public String mensaje;
 
-    public void cifrar() {
-        CifrarCesar c = new CifrarCesar();
-        mensaje =  c.cifradoCesar(this.texto, this.clave);
+    public void  cifrar() {
+        CifrarCesar.cifradoCesar(texto,clave);
     }
 
-    public void desCifrar() {
-        DescifrarCesar d = new DescifrarCesar();
-        mensaje = d.descifradoCesar(this.texto,this.clave);
+    public  void desCifrar() {
+        DescifrarCesar.descifradoCesar(texto,clave);
     }
-
+    public CesarController(String mensaje,int clave){
+        setTexto(texto);
+        setClave(clave);
+    }
     public CesarController(int boton){
         switch (boton){
-            case 1: cambiarVistaVigenere();
+            /*case 1: cambiarVistaVigenere();
                 break;
             case 2: cambiarVistaTrans();
                 break;
-            case 3: cifrar();
-                break;
-            case 4: desCifrar();
-                break;
-            case 5: SalidaTxt.exportarAtexto(mensaje,Integer.toString((this.clave)),tipoCifrado);
-                break;
+                */
 
+            case 1: cifrar();
+                break;
+            case 2: desCifrar();
+                break;
+            case 3: SalidaTxt.exportarAtexto(mensaje,Integer.toString((this.clave)),tipoCifrado);
+                break;
         }
-
     }
 
     public static void cambiarVistaVigenere (){
-
+        VigenereView vV = new VigenereView();
     }
 
     public static void cambiarVistaTrans(){
