@@ -1,9 +1,8 @@
 package com.company;
-import java.util.Scanner;
-import com.company.Controller.CesarController;
-import com.company.Controller.TranspositionController;
-import com.company.Controller.VigenereController;
 
+import com.company.Vistas.VigenereView;
+import com.company.Vistas.TransposicionView;
+import com.company.Vistas.ViewCesar;
 
 
 public class Main {
@@ -11,51 +10,15 @@ public class Main {
     public static void main(String[] args) {
         VigenereView v = new VigenereView();
         v.vigenere();
-        /*
+
         ViewCesar c = new ViewCesar();
         c.cesar();
-        */
-        /*
+
+
         TransposicionView t = new TransposicionView();
         t.transposicion();
 
-         */
-        /*
-        Scanner lector = new Scanner(System.in);
-        System.out.println("Escriba el modo que quiera");
-        String selector = lector.nextLine();
-        int opciones;
-        switch(selector) {
-            case "Cesar":
-                System.out.println("introduzca el mensaje");
-                String mensaje = lector.nextLine();
-                System.out.println("Introduzca la clave");
-                int clave = lector.nextInt();
-                System.out.println("Escriba la opcion que quiera");
-                System.out.println("1.Cifrar");
-                System.out.println("2.Descifrar");
-                opciones = lector.nextInt();
-                CesarController cesar1 = new CesarController(opciones,mensaje,clave);
-                System.out.println("¿Quiere guardar en fichero?");
-
-                break;
-            case "Vigenere":System.out.println("Escriba la opcion que quiera");
-                System.out.println("1.Cifrar");
-                System.out.println("2.Descifrar");
-                System.out.println("3.Guardar fichero");
-                opciones = lector.nextInt();
-                VigenereController vigenere = new VigenereController(opciones);
-                break;
-            case "Transposicion":
-                System.out.println("Escriba la opcion que quiera");
-                System.out.println("1.Cifrar");
-                System.out.println("2.Descifrar");
-                System.out.println("3.Guardar fichero");
-                opciones = lector.nextInt();
-                TranspositionController transposition = new TranspositionController(opciones);
-        }
-*/
-    }
+         }
 
 }
 

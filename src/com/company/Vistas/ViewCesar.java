@@ -1,4 +1,4 @@
-package Vistas;
+package com.company.Vistas;
 import java.util.Scanner;
 import com.company.Controller.CesarController;
 
