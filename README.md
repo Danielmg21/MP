@@ -28,3 +28,13 @@ En la carpeta del proyecto podrás encontrar el documento **mp_srs.pdf**.
 1.	Es necesario tener java 8 instalado en el ordenador.
 2.	Ejecutar la clase Main.java situada en la dirección src/com/Company/Main.java que se encuentra dentro de la carpeta del proyecto.
 
+### Uso de la aplicación
+#### Inicio de sesión
+Lo primero que nos encontramos es el login. Disponemos de 3 opciones (si no se introduce un número válido, se vuelve a pedir que se introduzca una opción):
+  1. Iniciar sesión.
+  2. Añadir usuario.
+  3. Actualizar usuario.
+
+En caso de que salte un error (usuario no existente, contraseña incorrecta, etc.), se nos pedirá de nuevo que introduzcamos un número para seleccionar una opción de las mencionadas anteriormente.
+
+Aparte, se comprobará el rol al iniciar sesión y, en caso de ser usuario VIP, saltará aviso de que en efecto lo eres.
