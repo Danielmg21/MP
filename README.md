@@ -22,3 +22,9 @@ Como equipo, hemos decidido que lo mejor sería aplicar lo aprendido en la asign
 
 ## Documento de Requerimientos del Software
 En la carpeta del proyecto podrás encontrar el documento **mp_srs.pdf**.
+
+## Instrucciones de uso
+### Cómo iniciar la aplicación
+1.	Es necesario tener java 8 instalado en el ordenador.
+2.	Ejecutar la clase Main.java situada en la dirección src/com/Company/Main.java que se encuentra dentro de la carpeta del proyecto.
+
