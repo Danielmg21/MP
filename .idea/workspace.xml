@@ -2,12 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ee3c19b-facc-4dea-bdff-dc8950b6f29d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Model/CifrarTransposicion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/ColTransCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/ColTransCipher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Controller/CesarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Controller/CesarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Controller/VigenereController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Controller/VigenereController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Model/CifradorVigenere.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Model/CifradorVigenere.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Model/CifrarCesar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Model/CifrarCesar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Model/DescifradorVigenere.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Model/DescifradorVigenere.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Model/DescifrarCesar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Model/DescifrarCesar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/SalidaTxt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/SalidaTxt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/View/CesarView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/View/CesarView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/View/CesarView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/View/CesarView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/View/CesarView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/View/CesarView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/View/CesarView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/View/CesarView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/View/CesarView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/View/CesarView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/View/TrasposicionView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/View/TrasposicionView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/View/VigenereView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/View/VigenereView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Controller/CesarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller/CesarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/TrasposicionView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/TrasposicionView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/TrasposicionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/TrasposicionView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/VigenereView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/VigenereView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/VigenereView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/VigenereView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/controller/VigenereController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/controller/VigenereController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/View/CesarView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CesarView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/View/CesarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CesarView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,22 +41,72 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/View/CesarView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="45" column="44" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="45" selection-end-column="44" />
+            <state relative-caret-position="-1042">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Model/CifrarCesar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Controller/CesarController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/VigenereView.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/PruebaKike/src/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+            <state relative-caret-position="3009">
+              <caret line="211" lean-forward="true" selection-start-line="130" selection-start-column="4" selection-end-line="211" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Model/CifrarTransposicion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/SalidaTxt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,91 +115,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/controller/CesarController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="37" />
-              <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-                <element signature="e#1263#1264#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/TrasposicionView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1276#1277#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/TrasposicionView.form">
+        <entry file="file://$PROJECT_DIR$/src/com/company/View/CesarView.form">
           <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/VigenereView.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/controller/VigenereController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3052#3053#0" expanded="true" />
-                <element signature="e#3104#3105#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Model/CifradorVigenere.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-73">
               <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1290">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -174,17 +167,18 @@
         <option value="$PROJECT_DIR$/src/com/company/View/vistaCesar.java" />
         <option value="$PROJECT_DIR$/src/com/company/Controller/VigenereController.java" />
         <option value="$PROJECT_DIR$/src/com/company/Controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/CesarView.form" />
-        <option value="$PROJECT_DIR$/src/com/company/Controller/CesarController.java" />
         <option value="$PROJECT_DIR$/src/com/company/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/CesarView.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/TrasposicionView.form" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/controller/CesarController.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/TrasposicionView.java" />
         <option value="$PROJECT_DIR$/src/com/company/controller/VigenereController.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/VigenereView.form" />
         <option value="$PROJECT_DIR$/src/com/company/View/VigenereView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/View/CesarView.form" />
+        <option value="$PROJECT_DIR$/src/com/company/View/CesarView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Controller/CesarController.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Model/CifrarTransposicion.java" />
       </list>
     </option>
   </component>
@@ -194,7 +188,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -205,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,7 +224,7 @@
               <item name="MP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MP" type="b2602c69:ProjectViewProjectNode" />
@@ -242,7 +238,15 @@
               <item name="MP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="PruebaKike" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="PruebaKike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MP" type="b2602c69:ProjectViewProjectNode" />
@@ -250,30 +254,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="CesarView" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="MP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="TrasposicionView" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="MP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="VigenereView" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +287,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.vistaCesar">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="MP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="MP" />
@@ -328,6 +320,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.vistaCesar" />
         <item itemvalue="Application.Main" />
       </list>
@@ -348,17 +341,18 @@
       <workItem from="1555665072572" duration="4300000" />
       <workItem from="1556637482666" duration="6270000" />
       <workItem from="1556716521972" duration="3315000" />
+      <workItem from="1556876973991" duration="3984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19818000" />
+    <option name="totallyTimeSpent" value="23802000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1709531" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16868381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -367,7 +361,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5566667" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5555556" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,7 +369,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850242" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -410,9 +404,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Model/DescifradorVigenere.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/CifrarCesar.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Model/DescifrarCesar.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Model/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Controller/LoginController.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/TrasposicionView.form" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/TrasposicionView.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Controller/VigenereController.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/VigenereView.form" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/VigenereView.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/CifradorVigenere.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/CifrarCesar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SalidaTxt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -426,97 +446,39 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CesarView.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/CifradorVigenere.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1290">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/TrasposicionView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/TrasposicionView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/controller/CesarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/controller/VigenereController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3052#3053#0" expanded="true" />
-            <element signature="e#3104#3105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CesarView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="45" column="44" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="45" selection-end-column="44" />
+        <state relative-caret-position="-1042">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/VigenereView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/VigenereView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Controller/CesarController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        <state relative-caret-position="437">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/CifrarTransposicion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/PruebaKike/src/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3009">
+          <caret line="211" lean-forward="true" selection-start-line="130" selection-start-column="4" selection-end-line="211" />
         </state>
       </provider>
     </entry>
