@@ -5,12 +5,12 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 public class SalidaTxt {
-    public static void exportarAtexto(String msgdescifrado, String clave, String tipodecifrado, String titulo) {
+    public static void exportarAtexto(String msgdescifrado, String clave, String tipodecifrado) {
         switch (tipodecifrado) {
             case ("Código Cesar"):
             System.out.println("Voy a imprimir el cesar");
                 try {
-                    FileWriter fw = new FileWriter(titulo + ".txt");
+                    FileWriter fw = new FileWriter(  "codigocesar.txt");
                     PrintWriter pw = new PrintWriter(fw);
 
                     pw.println("Mensaje descifrado por " + tipodecifrado + " con desplazamiento " + clave + " : ");
@@ -24,10 +24,10 @@ public class SalidaTxt {
                 }
                 break;
 
-            case ("Código de VigenereController"):
+            case ("Código Vigenere"):
 
                 try {
-                    FileWriter fw = new FileWriter(titulo + ".txt");
+                    FileWriter fw = new FileWriter( "codigovigenere.txt");
                     PrintWriter pw = new PrintWriter(fw);
 
                     pw.println("Mensaje descifrado por " + tipodecifrado + " con palabra clave " + clave + " : ");
@@ -43,7 +43,7 @@ public class SalidaTxt {
             case ("Transposición"):
 
                 try {
-                    FileWriter fw = new FileWriter(titulo + ".txt");
+                    FileWriter fw = new FileWriter( "transposicion.txt");
                     PrintWriter pw = new PrintWriter(fw);
 
                     pw.println("Mensaje descifrado por " + tipodecifrado + " con clave " + clave + " : ");
