@@ -1,4 +1,6 @@
-package com.company.Controller;
+package com.company.Vistas;
+
+import com.company.Controller.LoginController;
 
 import java.util.Scanner;
 

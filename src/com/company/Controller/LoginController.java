@@ -1,6 +1,7 @@
 package com.company.Controller;
 
 import com.company.Model.Login;
+import com.company.Vistas.LoginView;
 
 public class LoginController {
 
