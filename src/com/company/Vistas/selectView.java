@@ -1,4 +1,7 @@
 package com.company.Vistas;
+import com.company.Controller.LoginController;
+
+import javax.management.relation.Role;
 import java.util.Scanner;
 
 public class selectView {
@@ -12,12 +15,23 @@ public class selectView {
         switch (choose){
             case 1: ViewCesar c = new ViewCesar();
                 c.cesar();
+                selectView.choose();
                 break;
-            case 2: VigenereView v = new VigenereView();
-                v.vigenere();
-                break;
-            case 3: TransposicionView t = new TransposicionView();
+            case 2: TransposicionView t = new TransposicionView();
                 t.transposicion();
+                selectView.choose();
+                break;
+            case 3:
+                LoginController login = new LoginController();
+                String rol = login.getRol();
+                if(rol=="VIP") {
+                    VigenereView v = new VigenereView();
+                    v.vigenere();
+                }else{
+                    System.out.println("No tienes permisos suficientes");
+                    selectView.choose();
+                }
+                break;
         }
 
     }

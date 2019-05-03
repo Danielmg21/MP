@@ -2,6 +2,7 @@ package com.company.Controller;
 
 import com.company.Model.Login;
 import com.company.Vistas.LoginView;
+import com.company.Vistas.selectView;
 
 public class LoginController {
 
@@ -48,12 +49,14 @@ public class LoginController {
 
         if(login.authUser(name, pass)){ //Si devuelve true
             if(login.checkUserRol(name) == "VIP"){  //Comprobamos el rol
-                //return new viewModel("VIP"); //Mandamos a la vista del menu del encriptador de rol VIP
-            }else{
-                //return new viewModel("Normal"); //Mandamos a la vista del menu encriptador de rol normal
+                System.out.println("Tiene permisos VIP");// Mandamos a la vista del menu del encriptador de rol VIP
             }
+            selectView vista = new selectView();
+            vista.choose();//Vamos a la vista del menu prncipal
         }else{//La autentificacion es incorrecta
-            //return new viewModel("El usuario y la contraseña no coinciden");
+            System.out.println("Su autentificación ha fallado");
+            LoginView loginView = new LoginView();
+            loginView.showView();
         }
     }
 
@@ -61,31 +64,19 @@ public class LoginController {
     public void addUser(String name, String pass) {
         //Recogemos valor de nombre y pass de la vista
 
-        if(login.addUser(name, pass)){
-            //return new viewModel(name, pass, "Usuario añadido correctamente");
-            System.out.println("Usuario añadido correctamente");
-        }else{
-            //return new viewModel(null, null, "Ha habido un error al añadir al usuario");
-            System.out.println("");
+        if(!login.addUser(name, pass)){
+            LoginView login = new LoginView();
+            login.showView();
         }
     }
 
     public void updateUser(String name, String pass) {
         //Recogemos valor de nombre y pass de la vista
-
-        if(login.checkUser(name)){//Primero comprobamos que exista el usuario al que se le intenta cambiar la contraseña
-            if(login.updateByName(name,pass)){
-                //return new viewModel(name, pass, "La contraseña se ha cambiado correctamente");
-                System.out.println("La contraseña se ha cambiado correctamente");
-            }else{
-                //return new viewModel(null, null, "Hubo un problema al cambiar la contraseña");
-                System.out.println("Hubo un problema al cambiar la contraseña");
-            }
-
-        }else{
-            //return new viewModel(null, null, "El usuario no esta registrado");
-            System.out.println("El usuario no esta registrado");
+        if (!login.updateByName(name,pass)){
+            LoginView login = new LoginView();
+            login.showView();
         }
+
     }
 
     public void controller(){

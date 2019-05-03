@@ -26,10 +26,9 @@ public class Login {
 	public boolean checkUser(String name) {
 			readDataFromFile();
 		if (data.containsKey(name)) {
-				System.out.println("Correct.");
 				return true;
 			}
-			System.out.println("Username doesn't exist.");
+			System.out.println("El usuario no existe.");
 			return false;
 
 	}
@@ -39,10 +38,9 @@ public class Login {
 				return false;
 			}
 			if (data.get(name).getPassword().equals(pass)) {
-				System.out.println("Correct password.");
 				return true;
 			}
-			System.out.println("Wrong password.");
+			System.out.println("La contraseña es incorrecta");
 			return false;
 	}
 
@@ -62,7 +60,7 @@ public class Login {
 			}
 			data.get(name).setPassword(newPass);
 			writeDataToFile();
-			System.out.println("Password changed successfully.");
+			System.out.println("Se ha actualizado la contraseña");
 			return true;
 		}
 		catch (Exception e) {
@@ -73,13 +71,13 @@ public class Login {
 	public boolean addUser(String name, String pass) {
 		try {
 			if (checkUser(name)) {
-				System.out.println("User already exists.");
+				System.out.println("El usuario ya existe");
 				return false;
 			}
 			User userAux = new User(name,pass,"normal");
 			data.put(userAux.getUserName(),userAux);
 			writeDataToFile();
-			System.out.println("User added successfully.");
+			System.out.println("Se ha añadido correctamente.");
 			return true;
 		}
 		catch (Exception e) {

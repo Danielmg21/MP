@@ -13,18 +13,27 @@ public class LoginView {
     public void showView() {
 
         Scanner sc = new Scanner(System.in);
+        System.out.println();
+        System.out.println("/***************************/");
         System.out.println("Bienvenido al ENCRIPTADOR");
+        System.out.println("/***************************/");
+        System.out.println();
 
         System.out.println("1.- Iniciar Sesion.");
         System.out.println("2.- Añadir nuevo Usuario.");
         System.out.println("3.- Cambiar contraseña.");
         System.out.print("Introduzca la opcion númerica: ");
-        int opcion = sc.nextInt();
-        System.out.println(opcion);
 
-        LoginController login = new LoginController();
-        login.setOpcion(opcion);
-        login.controller();
+        try {
+            int opcion = sc.nextInt();
+            LoginController login = new LoginController();
+            login.setOpcion(opcion);
+            login.controller();
+        }
+        catch (Exception e) {
+            System.out.println("Introduzca un número válido.");
+            this.showView();
+        }
     }
 
     public void askLogin(int opcion) {
