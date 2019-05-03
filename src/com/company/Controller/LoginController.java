@@ -48,11 +48,14 @@ public class LoginController {
         //Recogemos valor de nombre y pass de la vista
 
         if(login.authUser(name, pass)){ //Si devuelve true
-            if(login.checkUserRol(name) == "VIP"){  //Comprobamos el rol
+            if(login.checkUserRol(name).equals("VIP")){  //Comprobamos el rol
                 System.out.println("Tiene permisos VIP");// Mandamos a la vista del menu del encriptador de rol VIP
+                this.rol ="VIP";
+            }else{
+                this.rol = "normal";
             }
             selectView vista = new selectView();
-            vista.choose();//Vamos a la vista del menu prncipal
+            vista.choose(rol);//Vamos a la vista del menu prncipal
         }else{//La autentificacion es incorrecta
             System.out.println("Su autentificación ha fallado");
             LoginView loginView = new LoginView();

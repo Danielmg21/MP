@@ -25,10 +25,10 @@ public class CesarController {
         switch (boton){
 
             case 1: mensajeFinalizado = cifrar(mensaje,clave);
-                     System.out.println(mensajeFinalizado);
+                     System.out.println("Resultado: "+mensajeFinalizado);
                 break;
             case 2: mensajeFinalizado =desCifrar(mensaje,clave);
-                    System.out.println(mensajeFinalizado);
+                    System.out.println("Resultado: "+mensajeFinalizado);
                 break;
         }
     }

@@ -77,10 +77,10 @@ public class VigenereController {
     public VigenereController(int boton,String mensaje,String clave) {
         switch (boton) {
             case 1: mensajeFinalizado= encriptarTextoClaro(mensaje,clave);
-                    System.out.println(mensajeFinalizado);
+                    System.out.println("Resulatado: "+mensajeFinalizado);
                 break;
             case 2: mensajeFinalizado = desencriptarTextoCifrado(mensaje,clave);
-                    System.out.println(mensajeFinalizado);
+                    System.out.println("Resulatado: "+mensajeFinalizado);
                 break;
 
         }

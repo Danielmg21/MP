@@ -59,10 +59,6 @@ public class LoginView {
         }
 
         login.authUser(name, pass);
-
-
-        System.out.println("");
-        System.out.println("");
     }
 
 

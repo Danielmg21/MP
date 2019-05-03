@@ -20,10 +20,10 @@ public class TranspositionController {
     public TranspositionController(int boton,String texto,String clave){
         switch (boton){
             case 1: mensajeFinalizado = cifrar(texto,clave);
-                    System.out.println(mensajeFinalizado);
+                    System.out.println("Resulatado: "+mensajeFinalizado);
                 break;
             case 2: mensajeFinalizado = desCifrar(texto,clave);
-                    System.out.println(mensajeFinalizado);
+                    System.out.println("Resulatado: "+mensajeFinalizado);
                 break;
         }
     }

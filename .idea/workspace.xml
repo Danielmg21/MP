@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ee3c19b-facc-4dea-bdff-dc8950b6f29d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Controller/CesarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Controller/CesarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Controller/TranspositionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Controller/TranspositionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Controller/VigenereController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Controller/VigenereController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Model/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Model/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Vistas/LoginView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Vistas/LoginView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/com/company/Vistas/selectView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/com/company/Vistas/selectView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Controller/CesarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller/CesarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Controller/TranspositionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller/TranspositionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Controller/VigenereController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller/VigenereController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Vistas/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Vistas/LoginView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Vistas/TransposicionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Vistas/TransposicionView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Vistas/ViewCesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Vistas/ViewCesar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Vistas/VigenereView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Vistas/VigenereView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Vistas/selectView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Vistas/selectView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,20 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/selectView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/TransposicionView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="97">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,20 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Controller/VigenereController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="91" selection-start-line="90" selection-end-line="91" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/VigenereView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="-5">
+              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,8 +61,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/ViewCesar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+            <state relative-caret-position="289">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/TransposicionView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/VigenereView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,10 +97,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,17 +113,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/LoginView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="49">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="57" column="21" selection-start-line="55" selection-start-column="4" selection-end-line="57" selection-end-column="21" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Model/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -122,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Controller/CesarController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="442">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,8 +169,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>controller</find>
-      <find>opcion</find>
       <find>System.out.print</find>
+      <find>authUser</find>
+      <find>getRol</find>
+      <find>checkUserRol</find>
+      <find>System.out.</find>
+      <find>opcion</find>
     </findStrings>
     <replaceStrings>
       <replace>Controller</replace>
@@ -191,21 +221,21 @@
         <option value="$PROJECT_DIR$/src/com/company/View/CesarView.form" />
         <option value="$PROJECT_DIR$/src/com/company/View/prueba.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CesarView.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Controller/CesarController.java" />
         <option value="$PROJECT_DIR$/src/com/company/ViewCesar.java" />
         <option value="$PROJECT_DIR$/src/com/company/transposicionView.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Controller/TranspositionController.java" />
         <option value="$PROJECT_DIR$/src/com/company/SalidaTxt.java" />
         <option value="$PROJECT_DIR$/src/com/company/VigenereView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Controller/CesarController.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Controller/TranspositionController.java" />
         <option value="$PROJECT_DIR$/src/com/company/Controller/VigenereController.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Vistas/TransposicionView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Model/Login.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Vistas/LoginView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Vistas/selectView.java" />
         <option value="$PROJECT_DIR$/src/com/company/Vistas/ViewCesar.java" />
         <option value="$PROJECT_DIR$/src/com/company/Vistas/VigenereView.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Vistas/selectView.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Vistas/LoginView.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Model/Login.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Vistas/TransposicionView.java" />
       </list>
     </option>
   </component>
@@ -347,13 +377,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43390000" />
+    <option name="totallyTimeSpent" value="46298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -384,6 +414,38 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3268921" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52495974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850242" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -445,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SalidaTxt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -479,23 +534,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/codigovigenere.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Controller/TranspositionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="391">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codigovigenere.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/userInfo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="57" column="21" selection-start-line="55" selection-start-column="4" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Controller/CesarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Controller/VigenereController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="91" selection-start-line="90" selection-end-line="91" />
+        <state relative-caret-position="-5">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/selectView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/VigenereView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/ViewCesar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -505,81 +661,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/TransposicionView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/VigenereView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Controller/CesarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/selectView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/ViewCesar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Vistas/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
         </state>
       </provider>
     </entry>
