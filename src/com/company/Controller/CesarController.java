@@ -6,44 +6,29 @@ import com.company.SalidaTxt;
 
 
 public class CesarController {
-    public String texto;
-    public int clave;
+    public String mensajeFinalizado;
 
-    public String getMensaje() {
-        return mensaje;
+    public static String cifrar(String texto,int clave) {
+        return CifrarCesar.cifradoCesar(texto,clave);
     }
 
-    public void setTexto(String texto) {
-        this.texto = texto;
+    public  static String desCifrar(String texto, int clave) {
+        return DescifrarCesar.descifradoCesar(texto,clave);
+    }
+    public static void guardar (String mensaje,int clave){
+        SalidaTxt.exportarAtexto(mensaje,Integer.toString(clave),"Código Cesar");
+        System.out.println("Mensaje guardao en fichero");
     }
 
-    public void setClave(int clave) {
-        this.clave = clave;
-    }
 
-    public String tipoCifrado = "Código Cesar";
-
-    public String mensaje;
-
-    public void  cifrar() {
-        CifrarCesar.cifradoCesar(texto,clave);
-    }
-
-    public  void desCifrar() {
-        DescifrarCesar.descifradoCesar(texto,clave);
-    }
-    public CesarController(String mensaje,int clave){
-        setTexto(texto);
-        setClave(clave);
-    }
-    public CesarController(int boton){
+    public CesarController(int boton,String mensaje,int clave){
         switch (boton){
 
-            case 1: cifrar();
+            case 1: mensajeFinalizado = cifrar(mensaje,clave);
+                     System.out.println(mensajeFinalizado);
                 break;
-            case 2: desCifrar();
-                break;
-            case 3: SalidaTxt.exportarAtexto(mensaje,Integer.toString((this.clave)),tipoCifrado);
+            case 2: mensajeFinalizado =desCifrar(mensaje,clave);
+                    System.out.println(mensajeFinalizado);
                 break;
         }
     }

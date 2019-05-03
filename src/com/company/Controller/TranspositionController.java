@@ -5,51 +5,35 @@ import com.company.Model.DescifradorTrasposicion;
 import com.company.SalidaTxt;
 
 public class TranspositionController {
-    public String texto;
-    public String clave;
 
-    public String getMensaje() {
-        return mensaje;
+    public String mensajeFinalizado;
+
+    public static String cifrar(String texto,String clave) {
+        return CifradorTrasposicion.cifradoTrasposicion(texto,clave);
     }
 
-    public void setTexto(String texto) {
-        this.texto = texto;
+    public  static String desCifrar(String texto,String clave) {
+
+        return DescifradorTrasposicion.descifradoTrasposicion(texto,clave);
     }
 
-    public void setClave(String clave) {
-        this.clave = clave;
-    }
-
-    public String tipoCifrado = "Código Transposicion";
-
-    public String mensaje;
-
-    public void  cifrar() {
-        mensaje =  CifradorTrasposicion.cifradoTrasposicion(texto,clave);
-    }
-
-    public  void desCifrar() {
-        mensaje = DescifradorTrasposicion.descifradoTrasposicion(texto,clave);
-    }
-
-
-
-    public TranspositionController(int boton){
+    public TranspositionController(int boton,String texto,String clave){
         switch (boton){
-            /*case 1: cambiarVistaVigenere();
+            case 1: mensajeFinalizado = cifrar(texto,clave);
+                    System.out.println(mensajeFinalizado);
                 break;
-            case 2: cambiarVistaTrans();
-                break;
-                */
-
-            case 1: cifrar();
-                break;
-            case 2: desCifrar();
-                break;
-            case 3: SalidaTxt.exportarAtexto(mensaje,(clave),tipoCifrado);
+            case 2: mensajeFinalizado = desCifrar(texto,clave);
+                    System.out.println(mensajeFinalizado);
                 break;
         }
     }
+
+    public static void guardar (String mensaje,String clave){
+        SalidaTxt.exportarAtexto(mensaje,clave,"Transposición");
+        System.out.println("Mensaje guardao en fichero");
+    }
+
+
 
 
 

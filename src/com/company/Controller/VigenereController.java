@@ -3,9 +3,11 @@ package com.company.Controller;
 
 import com.company.Model.CifradorVigenere;
 import com.company.Model.DescifradorVigenere;
+import com.company.SalidaTxt;
 
 
 public class VigenereController {
+    public String mensajeFinalizado;
     private String textoCifrado = "";
     private String textoClaro = "";
     CifradorVigenere cifradoVigenere = new CifradorVigenere();
@@ -72,17 +74,25 @@ public class VigenereController {
     }
 
 
-    public VigenereController(int boton) {
+    public VigenereController(int boton,String mensaje,String clave) {
         switch (boton) {
-            case 3:
-                //cifrar();
+            case 1: mensajeFinalizado= encriptarTextoClaro(mensaje,clave);
+                    System.out.println(mensajeFinalizado);
                 break;
-            case 4:
-                //desCifrar();
+            case 2: mensajeFinalizado = desencriptarTextoCifrado(mensaje,clave);
+                    System.out.println(mensajeFinalizado);
                 break;
 
         }
     }
+
+
+    public static void guardar (String mensaje,String clave){
+        SalidaTxt.exportarAtexto(mensaje,clave,"Código Vigenere");
+        System.out.println("Mensaje guardao en fichero");
+    }
+
+
 
 
 

@@ -8,14 +8,12 @@ public class SalidaTxt {
     public static void exportarAtexto(String msgdescifrado, String clave, String tipodecifrado) {
         switch (tipodecifrado) {
             case ("Código Cesar"):
-            System.out.println("Voy a imprimir el cesar");
                 try {
                     FileWriter fw = new FileWriter(  "codigocesar.txt");
                     PrintWriter pw = new PrintWriter(fw);
 
                     pw.println("Mensaje descifrado por " + tipodecifrado + " con desplazamiento " + clave + " : ");
                     pw.println(msgdescifrado);
-                    System.out.println("Estoy imprimiendo el cesar");
 
                     pw.close();
                 } catch (
