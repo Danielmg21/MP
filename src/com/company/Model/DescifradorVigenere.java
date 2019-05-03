@@ -9,7 +9,12 @@ public class DescifradorVigenere {
             'K', 'L', 'M', 'N', 'Ñ',
             'O', 'P', 'Q', 'R', 'S',
             'T', 'U', 'V', 'W', 'X',
-            'Y', 'Z'
+            'Y', 'Z', 'a', 'b', 'c',
+            'd', 'e', 'f', 'g', 'h',
+            'i', 'j', 'k', 'l', 'm',
+            'n', 'ñ', 'o', 'p', 'q',
+            'r', 's', 't', 'u', 'v',
+            'w', 'x', 'y', 'z'
     };
 
     public char getTextoDescifrado(char parTextoCifrado, char parTextoClave) {
@@ -30,7 +35,7 @@ public class DescifradorVigenere {
             }
         }
         if(indiceCharTextoCifrado >= indiceCharTextoClave)
-            return tablaCesar[(indiceCharTextoCifrado - indiceCharTextoClave) % 27];
+            return tablaCesar[(indiceCharTextoCifrado - indiceCharTextoClave) % 54];
         else
             return tablaCesar[27-(indiceCharTextoClave - indiceCharTextoCifrado)];
     }
